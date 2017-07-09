@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsSolutions", "CodeWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMask", "CCMask\CCMask.csproj", "{452F6D8A-8694-4786-B29D-A075B12FC615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIGetABonus", "DoIGetABonus\DoIGetABonus.csproj", "{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{452F6D8A-8694-4786-B29D-A075B12FC615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452F6D8A-8694-4786-B29D-A075B12FC615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452F6D8A-8694-4786-B29D-A075B12FC615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
