@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CodeWar_CCMask")]
+[assembly: AssemblyTitle("CCMask")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CodeWar_CCMask")]
+[assembly: AssemblyProduct("CCMask")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e02bafb-c6e0-4d65-a4cd-3ebfe764f5cc")]
+[assembly: Guid("452f6d8a-8694-4786-b29d-a075b12fc615")]
 
 // Version information for an assembly consists of the following four values:
 //
