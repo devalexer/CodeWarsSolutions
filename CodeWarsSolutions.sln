@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMask", "CCMask\CCMask.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIGetABonus", "DoIGetABonus\DoIGetABonus.csproj", "{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsThisATriangle", "IsThisATriangle\IsThisATriangle.csproj", "{D3ADFF0E-8F0C-480D-B048-5D65D07B7DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestIntInArray", "SmallestIntInArray\SmallestIntInArray.csproj", "{7391B979-E62E-4514-B384-68B6E6779644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB452FEB-CB8F-499D-9C81-0ACBEC2B62CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3ADFF0E-8F0C-480D-B048-5D65D07B7DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3ADFF0E-8F0C-480D-B048-5D65D07B7DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3ADFF0E-8F0C-480D-B048-5D65D07B7DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3ADFF0E-8F0C-480D-B048-5D65D07B7DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7391B979-E62E-4514-B384-68B6E6779644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7391B979-E62E-4514-B384-68B6E6779644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7391B979-E62E-4514-B384-68B6E6779644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7391B979-E62E-4514-B384-68B6E6779644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
