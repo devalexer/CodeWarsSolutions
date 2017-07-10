@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsThisATriangle", "IsThisAT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestIntInArray", "SmallestIntInArray\SmallestIntInArray.csproj", "{7391B979-E62E-4514-B384-68B6E6779644}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberClimber", "NumberClimber\NumberClimber.csproj", "{ECCBD2C0-3AEA-4C87-AB90-BD464FB44860}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7391B979-E62E-4514-B384-68B6E6779644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7391B979-E62E-4514-B384-68B6E6779644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7391B979-E62E-4514-B384-68B6E6779644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCBD2C0-3AEA-4C87-AB90-BD464FB44860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCBD2C0-3AEA-4C87-AB90-BD464FB44860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCBD2C0-3AEA-4C87-AB90-BD464FB44860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCBD2C0-3AEA-4C87-AB90-BD464FB44860}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
