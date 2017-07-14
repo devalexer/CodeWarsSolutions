@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSheep", "CountingSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTriplets", "CompareTriplets\CompareTriplets.csproj", "{42864D01-DA0D-4192-A269-1E2050848F79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadsAndLegs", "HeadsAndLegs\HeadsAndLegs.csproj", "{5FA5E017-1663-4AF5-830B-6DA07B297D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{42864D01-DA0D-4192-A269-1E2050848F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42864D01-DA0D-4192-A269-1E2050848F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42864D01-DA0D-4192-A269-1E2050848F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA5E017-1663-4AF5-830B-6DA07B297D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA5E017-1663-4AF5-830B-6DA07B297D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA5E017-1663-4AF5-830B-6DA07B297D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA5E017-1663-4AF5-830B-6DA07B297D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
