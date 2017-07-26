@@ -10,23 +10,26 @@ namespace AreWeAlternate
     {
         public static bool IsAlt(string word)
         {
-            string[] s = string.Join<char>("", word.Where((ch, index) => (index % 2) != 0));
-            if (s == ("a" || "e" || "i" || "o" || "u"))
-            {
-                return true;
-            }
-            if (s != ("a" || "e" || "i" || "o" || "u"))
+            string a = string.Join<char>("", word.Where((ch, index) => (index % 2) != 0));
+            string b = string.Join<char>("", word.Where((ch, index) => (index % 2) != 0));
+
+            if (a.Any() != ("a" || "e" || "i" || "o" || "u"))
             {
                 return false;
             }
+            if (b.Any() == ("a" || "e" || "i" || "o" || "u"))
+            {
+                return false;
+            }
+            else return true;
 
 
-            StringBuilder sb = new StringBuilder();
-                for (int i = 0; i <= word.Length - 1; i++)
-                {
-                    sb.AppendFormat(i % 2 != 0 ? "{0} " : "{0},", [i]);
-                }
-                return sb.ToString();
+            //StringBuilder sb = new StringBuilder();
+            //    for (int i = 0; i <= word.Length - 1; i++)
+            //    {
+            //        sb.AppendFormat(i % 2 != 0 ? "{0} " : "{0},", [i]);
+            //    }
+            //    return sb.ToString();
             }
         }
     }
