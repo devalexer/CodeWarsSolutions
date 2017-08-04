@@ -10,18 +10,19 @@ namespace HeadsAndLegs
     {
         public static object Animals(int heads, int legs)
         {
-            var totalHeads = 0;
-            var totalLegs = 0;
+
+            var cows = 0;
+            var chickens = 0;
             if (heads % 2 == 0 && legs % 2 == 0)
             {
-                totalHeads = heads / 2;
-                totalLegs = legs / 2;
+                cows = (legs - (heads * 2)) / 2;
+                chickens = heads - cows;
             }
             else
             {
                 Console.WriteLine("No solutions");
             }
-            return new int[] { totalHeads, totalLegs };
+            return new int[] { chickens, cows };
         }
     }
 
